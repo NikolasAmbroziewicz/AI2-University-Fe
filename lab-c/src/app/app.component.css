@@ -1,0 +1,23 @@
+header {
+  height: 80;
+  background-color: blue;
+}
+
+header > h1 {
+  color: white;
+  line-height: 80px;
+  margin: 0;
+  padding: 0;
+}
+
+.router-outlet {
+  display: flex;
+  height: calc(100% - 100px);
+}
+
+footer {
+  background: green;
+  text-align: center;
+  line-height: 20px;
+  height: 20px;
+}
