@@ -1,0 +1,30 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: blue;
+  color: white;
+  margin: 0;
+  padding: 12px;
+  text-align: center;
+  height: 100px;
+}
+
+nav {
+  display: flex;
+  gap: 10px;
+}
+
+a {
+  color: white;
+}
+
+.router-outlet {
+  height: calc(100% - 144px);
+}
+
+footer {
+  height: 20px;
+  background-color: green;
+}
