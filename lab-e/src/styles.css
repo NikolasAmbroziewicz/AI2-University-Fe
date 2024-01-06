@@ -1,12 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
-
-html, 
-body {
-    height: 100%;
+:root {
+  --primary-color: #008148;
+  --secondary-color: #323B86;
+  --accent-color: #e8e7fa;
+  --shadow-color: #E8E8E8;
 }
 
-body {
-  position: relative;
-  margin: 0;
-  background: url("https://placehold.co/100x100/FFFFFF/EFEFEF/png?text=45745");
+button.primary {
+  padding: 10px;
+  border: solid 1px var(--primary-color);
+  background: var(--primary-color);
+  color: white;
+  border-radius: 8px;
 }
+* {
+  box-sizing: border-box;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

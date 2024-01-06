@@ -59,6 +59,7 @@
 
 .tasks .task .title {
   grid-area: title;
+  color: red;
 }
 
 .tasks .task .deadline {

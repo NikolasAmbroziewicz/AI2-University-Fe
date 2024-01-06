@@ -11,6 +11,10 @@ header {
   height: 100px;
 }
 
+.spacer {
+  flex: 1 1 auto;
+}
+
 nav {
   display: flex;
   gap: 10px;
